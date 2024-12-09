@@ -52,7 +52,7 @@ namespace BuyableShotgun
                 Instance = this;
             }
             harmony.PatchAll();
-            ShotgunPriceConfig = Config.Bind("Prices", "ShotgunPrice", 700, "Credits needed to buy shotgun");
+            ShotgunPriceConfig = Config.Bind("Prices", "ShotgunPrice", 40, "Credits needed to buy shotgun");
             Logger.LogInfo($"Plugin {modName} is loaded with version {modVersion}!");
         }
 
